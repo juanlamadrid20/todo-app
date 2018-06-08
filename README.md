@@ -30,7 +30,4 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
-
-
-aws s3 sync dist/ s3://yolo-ui-bucket2 --acl public-read --delete --profile c2s-sa 
 aws s3 sync dist/ s3://vueui --acl public-read --delete 
