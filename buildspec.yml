@@ -7,3 +7,4 @@ phases:
     commands:
       - npm run build
       - aws s3 sync dist/ s3://vueui --acl public-read --delete
+
