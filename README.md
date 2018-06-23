@@ -32,3 +32,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 https://scotch.io/tutorials/build-a-to-do-app-with-vue-js-2
 
 aws s3 sync dist/ s3://vueui --acl public-read --delete 
+
+
+http://vueui.s3-website-us-east-1.amazonaws.com/
+
+aws cloudfront create-invalidation --distribution-id E3PQHOWSFH2X2D --paths /index.html

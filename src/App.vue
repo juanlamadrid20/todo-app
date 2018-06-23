@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div>Version 3.0</div>
     <todo-list v-bind:todos="todos"></todo-list>
   </div>
 </template>
@@ -30,6 +31,10 @@ export default {
       }, {
         title: 'Todo D',
         project: 'Project D',
+        done: false,
+      }, {
+        title: 'Todo E',
+        project: 'Project E',
         done: false,
       }],
     };
