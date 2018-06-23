@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div>Version 3.0</div>
+    <div>Version 4.0</div>
     <todo-list v-bind:todos="todos"></todo-list>
   </div>
 </template>
